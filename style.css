@@ -1,46 +1,55 @@
 html,main{
-font-family: Helvetica, sans-serif;
-}
-body{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: azure;
-}
-#navbar{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 8px;
-    background-color: aliceblue;
-}
-#navbar a{
-    font-size: 30px;
-}
-#welcome-section{
-    margin-top: 45px;
-    height: 100%;
-    padding:5px 0px 0px 15px;
-}
-#projects{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
-.project-tile{
-    flex-basis: 31.9%;
-}
-footer{
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    color: cadetblue;
-}
-@media only screen and(max-width:400px){
+    font-family: Helvetica, sans-serif;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: azure;
+    }
+    #navbar{
+        display: inline-block;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 8px;
+        background-color: aliceblue;
+        
+    }
+    #navbar a{
+        font-size: 30px;
+    }
+    h1{
+        padding:5px 0px 0px 10px;
+    }
+    #welcome-section{
+        
+        height: 100vh;
+        
+        display: block;
+        
+        
+  
+    }
+    #projects{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    .project-tile{
+        flex-basis: 31.9%;
+    }
     footer{
         text-align: center;
     }
-}
+    a{
+        text-decoration: none;
+        color: cadetblue;
+    }
+    @media only screen and(max-width:400px){
+        footer{
+            text-align: center;
+        }
+    }
