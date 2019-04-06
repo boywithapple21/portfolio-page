@@ -39,7 +39,7 @@ a{
     text-decoration: none;
     color: cadetblue;
 }
-@media screen only and(max-width:400px){
+@media only screen and(max-width:400px){
     footer{
         text-align: center;
     }
